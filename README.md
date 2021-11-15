@@ -4,7 +4,9 @@
 
 General: 
 
-This is a fully working user account application built with Nestjs, Sequalize ORM, and GraphQl (schema first) 
+- This is a fully working user account application built with Nestjs, Postgres (Sequalize ORM), and GraphQl (schema first). 
+
+- For security reasons, the .env file has not been included in this repository. 
 
 GraphQl Notes: 
 
