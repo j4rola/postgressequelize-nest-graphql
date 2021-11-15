@@ -2,6 +2,20 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo_text.svg" width="320" alt="Nest Logo" /></a>
 </p>
 
+General: 
+
+This is a fully working user account application built with Nestjs, Sequalize ORM, and GraphQl (schema first) 
+
+GraphQl Notes: 
+
+Mutations should be run in the format: 
+
+mutation{
+  addUser(input: {firstName: "John", lastName: "DeWalt", email: "test@email.com", password: "dksfjklj"}){
+    firstName
+  }
+}
+
 [circleci-image]: https://img.shields.io/circleci/build/github/nestjs/nest/master?token=abc123def456
 [circleci-url]: https://circleci.com/gh/nestjs/nest
 
